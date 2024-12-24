@@ -1,0 +1,38 @@
+/* Footer Styles */
+.footer {
+    background-color: #2f2f2f; /* Fondo gris oscuro */
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 3px solid #FC6647; /* Línea superior en neón */
+    text-align: center;
+}
+
+.footer-text {
+    color: #ffffff; /* Texto blanco */
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    margin: 10px 0;
+}
+
+.footer-link {
+    color: #FC6647; /* Color neón */
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+    transition: color 0.3s ease; /* Animación al pasar el mouse */
+}
+
+.footer-link:hover {
+    color: #ffffff; /* Cambia a blanco al pasar el mouse */
+}
+
+.footer-slogan {
+    color: #FC6647; /* Texto en neón */
+    font-size: 14px;
+    margin-top: 10px;
+}

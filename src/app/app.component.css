@@ -1,0 +1,37 @@
+.welcome-section {
+    background: #2f2f2f; /* Fondo oscuro */
+    color: white; /* Texto blanco para contraste */
+    padding: 80px 0; /* Espaciado superior e inferior */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Sombra sutil para dar profundidad */
+  }
+  
+  .welcome-container {
+    max-width: 100%; /* Limitar el ancho a 600px */
+    margin: 100%; /* Centrar el contenedor */
+    padding: 0px; /* Añadir un pequeño padding lateral */
+  }
+  
+  .welcome-section h1 {
+    font-family: 'Garamond', serif; /* Fuente elegante y clásica */
+    font-weight: 1000px;
+    color: #f8c471; /* Un color dorado suave para darle un toque de lujo */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    letter-spacing: 3px; /* Espaciado entre letras */
+  }
+  
+  .welcome-section p {
+    font-family: 'Garamond', serif; /* Fuente sans-serif más ligera */
+    font-size: 1.2rem; /* Tamaño de fuente más pequeño pero legible */
+    font-weight: 300;
+    color: #f8c471; /* Un gris claro para el texto secundario */
+    margin-top: 20px;
+  }
+  
+  
+  
+
+
+
+
+    
+    

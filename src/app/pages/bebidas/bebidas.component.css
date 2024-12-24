@@ -1,0 +1,107 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #f1f1f1; /* Color de fondo suave */
+    color: #333;
+    line-height: 1.6;
+    padding: 40px 20px;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff; /* Fondo blanco para resaltar productos */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+h1 {
+    text-align: center;
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 40px;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Estilo de los productos */
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.producto {
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 280px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.producto h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+}
+
+.producto p {
+    font-size: 18px;
+    color: #777;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 15px;
+}
+
+/* Efecto de hover */
+.producto:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo de las secciones */
+.vino, .trago, .cerveza {
+    margin-bottom: 60px;
+}
+
+/* Fondo de las secciones */
+.vino h1, .trago h1, .cerveza h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+/* Responsividad */
+@media screen and (max-width: 768px) {
+    .producto {
+        width: 100%;
+        max-width: 350px;
+        margin-bottom: 30px;
+    }
+}
+

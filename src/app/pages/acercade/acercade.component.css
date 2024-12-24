@@ -1,0 +1,85 @@
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #2d3e50;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2em;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.about {
+    padding: 50px;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.about h2 {
+    color: #2d3e50;
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.about p {
+    color: #555;
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.about .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.about .social-links a {
+    text-decoration: none;
+    color: #2d3e50;
+    font-size: 1.2em;
+    font-weight: 700;
+    border: 2px solid #2d3e50;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.about .social-links a:hover {
+    background-color: #2d3e50;
+    color: white;
+}
+
+footer {
+    background-color: #2d3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}

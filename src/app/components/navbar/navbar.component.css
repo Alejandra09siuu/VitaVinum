@@ -1,0 +1,54 @@
+/* Estilo personalizado para la navbar */
+.navbar {
+    background-color: #2f2f2f !important; /* Fondo gris oscuro */
+    border-bottom: 3px solid #FC6647; /* Línea inferior en neón */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Sombra */
+  }
+  
+  /* Estilo para el texto de la marca */
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FC6647 !important; /* Color neón */
+  }
+  
+  /* Estilo para los enlaces de la navbar */
+  .nav-link {
+    color: #ffffff !important; /* Texto blanco */
+    transition: color 0.3s ease; /* Transición suave */
+  }
+  
+  .nav-link:hover {
+    color: #FC6647 !important; /* Color neón al pasar el mouse */
+  }
+  
+  /* Estilo para los enlaces deshabilitados */
+  .nav-link.disabled {
+    color: rgba(255, 255, 255, 0.5) !important; /* Blanco deshabilitado */
+  }
+  
+  /* Barra de búsqueda */
+  .form-control {
+    border: 2px solid #FC6647; /* Borde en neón */
+    background-color: #2f2f2f; /* Fondo gris oscuro */
+    color: #ffffff; /* Texto blanco */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .form-control:focus {
+    border-color: #FC6647; /* Efecto neón al enfocar */
+    box-shadow: 0 0 5px #FC6647; /* Sombra brillante */
+  }
+  
+  /* Botón de búsqueda */
+  .btn-outline-light {
+    border-color: #FC6647;
+    color: #FC6647;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .btn-outline-light:hover {
+    background-color: #FC6647; /* Fondo neón */
+    color: #2f2f2f; /* Texto gris oscuro */
+  }
+  
